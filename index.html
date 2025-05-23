@@ -18,6 +18,30 @@
         p {
             font-size: 1.2em;
         }
+        /* Estilos adicionais para a tabela */
+        table {
+            width: 80%; /* Largura da tabela */
+            margin: 30px auto; /* Centraliza a tabela e adiciona margem */
+            border-collapse: collapse; /* Colapsa as bordas das células */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            background-color: white; /* Fundo branco */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Borda leve para células */
+            padding: 12px; /* Espaçamento interno */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+        th {
+            background-color: #007bff; /* Fundo azul para o cabeçalho */
+            color: white; /* Texto branco no cabeçalho */
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Fundo cinza claro para linhas pares */
+        }
+        tr:hover {
+            background-color: #ddd; /* Fundo mais escuro ao passar o mouse */
+        }
     </style>
 </head>
 <body>
@@ -27,9 +51,71 @@
     <main>
         <p>Este é um exemplo de arquivo <code>index.html</code> hospedado no GitHub.</p>
         <p>Estou aprendendo a usar o GitHub para controlar minhas versões de código.</p>
+        <p>
+            Estou analisando as possibilidades de aplicar os conhecimentos de VScode aqui!
+        </p>
+
+        ---
+
+        <h2>Dados de Teste Aleatórios</h2>
+        <ul class="random-list">
+            <li>Um <span>item</span> bem simples.</li>
+            <li>Este item tem texto em <strong>negrito</strong>.</li>
+            <li>Aqui, enfatizamos algo com <em>itálico</em>.</li>
+            <li>Podemos misturar: <strong>importante</strong> e <em>essencial</em>.</li>
+            <li>Um link para <a href="https://www.google.com" target="_blank">o Google</a> neste item.</li>
+            <li>Número aleatório: <strong>123.45</strong> e uma palavra: <em>Teste</em>.</li>
+            <li>Frase de efeito: "A vida é como andar de bicicleta. Para manter o equilíbrio, você deve continuar se movendo."</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID do Item</th>
+                    <th>Nome do Produto</th>
+                    <th>Status</th>
+                    <th>Data de Criação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Processador Ryzen 5</td>
+                    <td>Ativo</td>
+                    <td>2024-03-15</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Placa de Vídeo RTX 3060</td>
+                    <td>Em Estoque</td>
+                    <td>2024-03-20</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Memória RAM DDR4 16GB</td>
+                    <td>Em Falta</td>
+                    <td>2024-04-01</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Monitor Gamer 144Hz</td>
+                    <td>Ativo</td>
+                    <td>2024-04-10</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>SSD NVMe 1TB</td>
+                    <td>Em Estoque</td>
+                    <td>2024-04-22</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
     <footer>
         <p>&copy; 2025 Thiago Sabino Dutra. Todos os direitos reservados.</p>
     </footer>
+    <img src="./imagens/bandeira.avif" alt="Canadá">
+
 </body>
 </html>
